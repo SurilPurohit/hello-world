@@ -15,6 +15,8 @@ import Inline from './components/Inline';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
@@ -36,7 +38,9 @@ function App() {
       <Inline />
       <h1 className='error'>Normal CSS</h1> */}
       {/* <h1 className={styles.success}>Module CSS</h1> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <FragmentDemo /> */}
+      <Table />
     </div>
   );
 }
