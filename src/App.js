@@ -14,11 +14,12 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <Greet name="suril" heroName="Suru"/>
+      {/* <Greet name="suril" heroName="Suru"/>
       <Greet name="rishi" heroName="Rishi">
         <p>This is child props</p>
       </Greet>
@@ -33,8 +34,9 @@ function App() {
       <NameList />
       <Stylesheet />
       <Inline />
-      <h1 className='error'>Normal CSS</h1>
-      <h1 className={styles.success}>Module CSS</h1>
+      <h1 className='error'>Normal CSS</h1> */}
+      {/* <h1 className={styles.success}>Module CSS</h1> */}
+      <Form />
     </div>
   );
 }
