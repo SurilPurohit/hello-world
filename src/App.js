@@ -17,6 +17,8 @@ import styles from './appStyles.module.css'
 import Form from './components/Form';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
@@ -40,7 +42,10 @@ function App() {
       {/* <h1 className={styles.success}>Module CSS</h1> */}
       {/* <Form /> */}
       {/* <FragmentDemo /> */}
-      <Table />
+      {/* <Table /> */}
+      {/* <PureComp /> */}
+      {/* <ParentComp /> */}
+      <RefsDemo />
     </div>
   );
 }
